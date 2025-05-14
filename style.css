@@ -1,0 +1,167 @@
+/* Hero Section */
+.hero-image {
+  background-image: url("https://i0.wp.com/www.thisisopus.com/wp-content/uploads/2018/05/TrophyLogo-HeaderNoLogos.png?fit=1920%2C1080&ssl=1");
+  background-color: #000f30;
+  height: 50vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hero-text {
+  text-align: left;
+  color: silver;
+}
+
+/* Headings */
+h1 {
+  color: silver;
+  font-family: Garamond, serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: Garamond, serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+th,
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.score {
+  font-size: 16px;
+  font-weight: bold;
+  color: #16a085;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+tr {
+  border-bottom: 1px solid LightBlue;
+}
+
+tr:last-of-type {
+  border-bottom: 2px solid Blue;
+}
+
+th {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: Blue;
+  color: white;
+}
+
+/* See more link styling */
+.see-more {
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+.year-link {
+  font-weight: bold;
+  color: #8e44ad;
+  text-decoration: none;
+}
+
+.year-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #3366ff;
+  padding: 8px;
+  text-align: center;
+  color: rgb(250, 244, 244);
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Input Box */
+#searchInput {
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-image {
+    height: 35vh;
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .hero-text {
+    padding: 10px 15px;
+    font-size: 90%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 14px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  #searchInput {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+  }
+}
